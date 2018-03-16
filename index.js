@@ -7,8 +7,8 @@ const APP_TOKEN = 'EAAMIF56YPUwBAE1S8D1ahMnyyuk8LPq73Dl8wTMBujdEskUSsGa9JNhkf79r
 var app = express();
 app.use(bodyParser.json());
 
-app.listen(3001, function  () {
-	console.log('Servidor port:3001');
+app.listen(3002, function  () {
+	console.log('Servidor port:3002');
 })
 
 app.get('/', function  (req, res) {
